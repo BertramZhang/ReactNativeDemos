@@ -21,7 +21,6 @@ export default class GithubFinder extends Component {
 
   constructor(props) {
     super(props);
-    super(props);
       var dataSource = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
       this.state = {
         dataSource,
@@ -82,7 +81,6 @@ export default class GithubFinder extends Component {
       </View>
     )
   }
-
 }
 
 var styles = StyleSheet.create({
